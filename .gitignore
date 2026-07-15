@@ -1,0 +1,8 @@
+backend/vendor/
+backend/.env
+Embed/venv/
+Embed/__pycache__/
+App/node_modules/
+App/.expo/
+.DS_Store
+Thumbs.db
