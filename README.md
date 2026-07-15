@@ -8,7 +8,7 @@
 - `/embed-service` — Python FastAPI microservice generating 384-dim embeddings via sentence-transformers
 - `/GuisedUpApp` — React Native (Expo) Feed Screen: paginated feed, infinite scroll, natural-language search, reaction button, loading/empty/error states
 - `/sql/queries.sql` — SQL Challenge queries D1–D4
-- `/docs/TSD.md` — Technical Solution Document (architecture, schema, vector DB choice, ranking algorithm, trade-offs, AI tool usage)
+- `/Document/TSD.md` — Technical Solution Document (architecture, schema, vector DB choice, ranking algorithm, trade-offs, AI tool usage)
 
 ## Setup
 
@@ -80,7 +80,7 @@ The app auto-logs in as Alice on launch (see `App.js` / `src/app/index.tsx`) —
 
 ## Design decisions & trade-offs
 
-Full reasoning is in `/docs/TSD.md`, including:
+Full reasoning is in `/Document/TSD.md`, including:
 - Why pgvector was chosen over a dedicated vector DB (Pinecone/Weaviate)
 - The exact weighted feed-ranking formula (authenticity, relationship depth, semantic similarity, time decay)
 - The authenticity-score heuristic (no ML image analysis — out of scope for the time box)
@@ -88,7 +88,7 @@ Full reasoning is in `/docs/TSD.md`, including:
 
 ## AI tool usage
 
-Documented honestly in `/docs/TSD.md` Section 7, per the brief's requirement.
+Documented honestly in `/Document/TSD.md` Section 7, per the brief's requirement.
 
 ## What I'd do with more time
 
