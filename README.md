@@ -5,9 +5,9 @@
 ## What's included
 
 - `/backend` — Laravel API: migrations (incl. pgvector), models, services (`EmbeddingClient`, `FeedRankingService`), 4 controllers, routes, seeder (2 test users), 4 feature tests
-- `/embed-service` — Python FastAPI microservice generating 384-dim embeddings via sentence-transformers
-- `/GuisedUpApp` — React Native (Expo) Feed Screen: paginated feed, infinite scroll, natural-language search, reaction button, loading/empty/error states
-- `/sql/queries.sql` — SQL Challenge queries D1–D4
+- `/embed` — Python FastAPI microservice generating 384-dim embeddings via sentence-transformers
+- `/App` — React Native (Expo) Feed Screen: paginated feed, infinite scroll, natural-language search, reaction button, loading/empty/error states
+- `/SQL/queries.sql` — SQL Challenge queries D1–D4
 - `/Document/TSD.md` — Technical Solution Document (architecture, schema, vector DB choice, ranking algorithm, trade-offs, AI tool usage)
 
 ## Setup
